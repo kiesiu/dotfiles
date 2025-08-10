@@ -33,7 +33,7 @@ require("lazy").setup({
       vim.o.timeout = true
       vim.o.timeoutlen = 300
     end,
-    opts = {}
+    opts = {},
   },
 
   {
@@ -123,7 +123,6 @@ require("lazy").setup({
 
   {
     "lambdalisue/vim-suda",
-    event = { "BufReadPre", "BufNewFile" },
   },
 
   {
